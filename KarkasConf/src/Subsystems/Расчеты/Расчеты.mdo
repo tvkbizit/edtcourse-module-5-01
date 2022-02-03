@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa8ee2e2-0d0e-4cb1-81b9-454eeccb3e1a">
+  <name>Расчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расчеты</picture>
+  </picture>
+  <content>Report.АнализНачисленийПремий</content>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Графики</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ДополнительныеНачисления</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>InformationRegister.СведенияОСотрудниках</content>
+  <content>InformationRegister.ПроцентыПремии</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
+  <content>CommonModule.Расчет</content>
+</mdclass:Subsystem>

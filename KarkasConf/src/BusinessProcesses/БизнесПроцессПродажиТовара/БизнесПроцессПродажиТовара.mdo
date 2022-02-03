@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e651b4d-f431-40d6-b1c9-b81262768c3d">
+  <producedTypes>
+    <objectType typeId="e00ce9b5-ffc0-4dfd-bbb0-4fc29ce3c5ce" valueTypeId="e29e5186-5dea-480c-92f8-b090180f9c99"/>
+    <refType typeId="fd1d1411-8ef1-4d17-b515-74ae0a476539" valueTypeId="5ea99a2b-668e-4cb9-bf79-843c9dc57d76"/>
+    <selectionType typeId="720c0048-2676-4856-990b-9d6d1898b780" valueTypeId="61747d8f-ccf2-411b-83b0-1593057875ec"/>
+    <listType typeId="7be48789-fcf5-44e1-9f46-fdb69420ba5e" valueTypeId="4d5de80b-c61e-48df-bab3-e56f8fb51a7c"/>
+    <managerType typeId="b51ed14d-9ba4-4211-8270-95da570aa66b" valueTypeId="b2db4ee9-e7fd-48fc-94eb-0d8ae9ec5999"/>
+    <routePointRef typeId="ed0874df-96d0-4d2f-aed5-d84b3804dacd" valueTypeId="2c8513e2-7508-4421-a759-32d49de8131d"/>
+  </producedTypes>
+  <name>БизнесПроцессПродажиТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процесс продажи товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.БизнесПроцессПродажиТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.БизнесПроцессПродажиТовара.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачиИсполнителей</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <forms uuid="48c212bb-688f-4687-82b0-a096b48125f2">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>
